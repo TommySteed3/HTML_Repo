@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index Too</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+
+        <nav>
+
+        <ul>
+         <a href="index2.html"><li>Home</li></a>
+          <a href="index.html"><li>Original Index</li></a>
+           <a href="contact.html"><li>Contact Info</li></a>
+        </ul>
+        </nav>
+
+    </header>
+
+    <p>Used text-shadow: vert horiz fade color; to put a shadow on h1 text.</p>
+    <p>Used text-decoration-line: none on the a-tags to remove lines from hyperlinks (a tags).</p>
+    <p>Removed underlines from hyperlinks using text-decoration-line: none.</p>
+   <h1>This is h1.  All h1 elements set to red and center in the stylesheet (CSS file).</h1> 
+   <h2>This is h2</h2>
+   <h3>This is h3 without class = green.</h3>
+   <h3 class="green">This is h3 with class = green.</h3>
+   <h3 id="orange">This is h3 with id = orange.</h3>
+
+
+   <div class="container">
+
+    <h1>This is an h1 in a div</h1>
+    <p>This is a paragraph in a div.  A div is a container that helps divide code into sections.</p>
+    <p>We set a border for this div using Class = container.  Border uses 3 arguments:  linewidth shape and color.</p>
+    <p>For linewidth - use px to designate pixels.  For shape you can use solid ; dotted ; or dashed.  Color is self-explanatory.</p>
+    <p>Used margin in our CSS class to add space between end of page and beginning of div.  You have spacing on the outside around all 4 sides of the div.</p>
+    <p>You can specify sides for margin.  For example:  margin-top ; margin-bottom ; margin-left ; margin-right.</p>
+    <p>Use padding to put space inside the box.</p>
+    <p>Same options for direction: -top ; -bottom ; -right ; -left.</p>
+
+</div>
+
+<div class = "block">block 1 using display: inline.</div>
+<div class = "block">block 2 using display: inline.</div>
+
+<div class = "block2">block 1 using display: block (default).</div>
+<div class = "block2">block 2 using display: block (default).</div>
+
+<div class = "block3">block 1 using display: inline-block.</div>
+<div class = "block3">block 2 using display: inline-block.</div>
+
+
+<section>
+
+    <p>This is a paragraph inside a section</p><br>
+    <i>This is italic inside a section</i><br>
+    <em>This is emphasized text</em><br>
+    <strong>Strong element - still in section.</strong><br>
+    <b>Bold text.</b><br>
+    <p>I had to add line breaks to many of the elements above.  These are "inline" elements which
+        don't automatically give you a line break.  On the other hand - block elements do automatically
+        give you a line break.
+    </p>
+
+   </section>
+
+    <h1>External Link</h1>
+   <a href="https://www.google.com">Google</a>
+   <p>And yes - you do need the https:// before www.google.com - I checked.</p>
+
+   <h1>Internal Link:</h1>
+<a href="index.html">Original html file.</a><br>
+
+<p>For our photos - we added a shado using box-shadow: vert horizontal fade color</p>
+<img src="pops.jpg" alt="My Dad", height="300"><br>
+<p>Image below uses border-radius: 50%.  Gives you a circle - if your image ~ square.</p>
+<img src="pops2.jpg" alt="My Square Dad" class="circle"><br>
+<p>Image below uses border-radius: 20%.</p>
+<img src="pops2.jpg" alt="My Square Dad" class="circle2"><br>
+
+<h1>This image is a link.</h1>
+<a href="https://www.google.com"><img src="pops.jpg" alt="My Dad", height="300"></a>
+
+
+<p>This was made with flexbox.  Flexbox required parent container around elements you want to manipulate.</p><br>
+<p>For some reason - My flexbox below doesn't work when I include the paragraph in the flex element.
+      So I pulled it out - but should figure out the problem.</p>
+
+
+<div class = "flex">
+
+    <div class = "box" id = "box1">Box 1</div>
+    <div class = "box" id = "box2">Box 2</div>
+    <div class = "box" id = "box3">Box 3</div>
+    <div class = "box" id = "box4">Box 4</div>
+    <div class = "box" id = "box5">Box 5</div>
+    <div class = "box" id = "box6">Box 6</div>
+
+</div>
+
+<p>Use justify-content to position items in your flex element.
+    center ; flex-end (right justify) ; flex-start (left justify) etc.
+</p>
+</body>
+</html>
